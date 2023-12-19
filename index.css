@@ -1,0 +1,154 @@
+body {
+	font-family: "Inter", sans-serif;
+	text-rendering: geometricPrecision;
+	background: white;
+}
+
+
+h1, h2, h3, h4, h5, p {
+	font-weight: 400;
+	margin: 10px;
+}
+
+h2 {
+	letter-spacing: -0.07rem;
+	font-size:1.3rem;
+	font-weight: 500;
+	margin-bottom: 0px;
+}
+h3 {
+	letter-spacing: -0.04rem;
+	opacity: 0.6;
+}
+
+a {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+p {
+	line-height: 1.7rem;
+	margin-top: 20px;
+	text-align: center;
+	letter-spacing: -0.05rem;
+}
+
+img {
+	width: 30%;
+	margin: 0 auto;
+}
+
+ul {
+	margin-bottom: 60px;
+	letter-spacing: -0.05rem;
+}
+
+li {
+	line-height: 1.7rem;
+	letter-spacing: -0.05rem;
+}
+
+i {
+	opacity: 0.8;
+}
+
+.sublist {
+	margin-bottom: 20px;
+}
+
+.container {
+	max-width: 100%;
+	padding: 4rem;
+}
+
+.content-container {
+	width: 50%;
+	padding: 3rem;
+	margin: 0 auto;
+	text-align: center;
+	position: fixed;
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%);
+}
+
+
+
+@media screen and (max-width: 480px) {
+	.content-container {
+		width: 90%;
+		padding: 10px;
+		margin: 0 auto;
+	}
+
+	img {
+		width: 100%; 
+	}
+}
+
+.work-container {
+	display: flex;
+	width: 80%; 
+	flex-wrap: wrap;
+}
+
+.work-container .video {
+	box-sizing: border-box;
+  flex: 1;
+  min-width: 33%;
+}
+
+.video video {
+	width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+	.work-container {
+		width: 100%;
+	}
+	.work-container .video {
+		min-width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
